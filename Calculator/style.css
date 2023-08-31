@@ -1,0 +1,64 @@
+
+.start{
+    position:relative;
+}
+.start::after{
+    background-image:url("calci.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: inherit;
+    position: absolute;
+    content: "";
+    opacity: 0.2;
+}
+
+.container{
+    margin:0 40%;
+}
+button{
+    position:relative;
+    overflow:hidden;
+    padding: 12px 18px;
+    font-size: 25px;
+    border-radius:10px;
+    margin:0 2px;
+    border:2px solid black;
+    cursor:pointer;
+    transition:width ease-in-out 1s;
+    font-family: 'Caveat', cursive;
+}
+
+button::after{
+    content:'';
+    display:block;
+    height:2px;
+    width:100%;
+    background-color:blue;
+    transform: scaleX(0);
+    transform-origin:left;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover::after{
+    transform: scaleX(1);
+}
+button:hover{
+    background-color:rgb(231, 166, 199);
+    color:rgb(110, 5, 63);
+    transform:translateY(-2px)
+}
+
+.row{
+    margin: 5px 0;
+}
+
+.row input{
+    margin: 9px;
+    font-family: 'Caveat', cursive;
+    background-color: rgb(216, 194, 211);
+    font-size: 25px;
+    padding: 9px 16px;
+    border: 2px solid black;
+    border-radius: 9px;
+}

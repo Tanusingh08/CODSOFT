@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Pangolin&family=Roboto&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Pangolin&family=Roboto&family=Satisfy&display=swap');
+
+.text-center {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+
+}
+
+  .bg-color {
+     /* background-color: lightpink; */
+}  
+
+.m-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
