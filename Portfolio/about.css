@@ -1,0 +1,41 @@
+.a-head {
+    height: 90vh;
+}
+
+.a {
+    height: 90vh;
+    /* background-color: rgb(237, 253, 253); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.about-left {
+    /* background-color: blue; */
+    width: 55vw;
+    margin-left: 10%;
+    cursor: pointer;
+    /* background-color: #276a64; */
+}
+
+.about-right {
+    /* background-color: chocolate; */
+    font-size: 20px;
+    margin: 0 10%;
+    text-align: justify;
+}
+
+.about-right h2 {
+    margin: 0 0px;
+    color: #8e5dcf;
+    font-size: 40px;
+}
+
+.about-right h3 {
+    color: #276a64;
+}
+
+.cv {
+    height: 5vh;
+}

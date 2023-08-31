@@ -1,0 +1,74 @@
+.skills-head {
+    /* height:120vh; */
+    /* background-color: rgb(231, 172, 130); */
+    margin-bottom: 10%;
+}
+
+.skills {
+    /* height:120vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: cadetblue; */
+}
+
+.skills h1 {
+    text-align: center;
+    color: rgb(88, 9, 85);
+    margin-top: 7%;
+    font-size: 40px;
+}
+
+.lang {
+    margin-top: 40px;
+    text-align: end;
+}
+
+.lang p {
+    font-size: 20px;
+    /* background-color: yellow; */
+    text-align: start;
+}
+
+.progress-head {
+    width: 25vw;
+    height: 2vh;
+    background-color: white;
+    border: 1px solid rgb(90, 30, 185);
+    border-radius: 10px;
+}
+
+.html-progress {
+    width: 23vw;
+    height: 2vh;
+    background-color: rgb(20, 65, 150);
+    border-radius: 10px;
+}
+
+.css-progress {
+    width: 20vw;
+    height: 2vh;
+    background-color: rgb(20, 65, 150);
+    border-radius: 10px;
+}
+
+.javas-progress {
+    width: 18vw;
+    height: 2vh;
+    background-color: rgb(20, 65, 150);
+    border-radius: 10px;
+}
+
+.cpp-progress {
+    width: 23vw;
+    height: 2vh;
+    background-color: rgb(20, 65, 150);
+    border-radius: 10px;
+}
+
+.ds-progress {
+    width: 20vw;
+    height: 2vh;
+    background-color: rgb(20, 65, 150);
+    border-radius: 10px;
+}

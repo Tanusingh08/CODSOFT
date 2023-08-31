@@ -1,0 +1,56 @@
+.project-head {
+    /* background-color: rgb(157, 182, 230); */
+    text-align: center;
+}
+
+.project-head h1 {
+    color: rgb(8, 90, 241);
+    margin-top: 4%;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin-top: -5%;
+    /* background-color: aquamarine; */
+}
+
+.proj {
+    padding: 10px 10px;
+    text-align: justify;
+    /* background-color: rgb(240, 233, 223); */
+    height: 60vh;
+    margin: 2px 20px;
+    border: 1px solid #c9b8b8;
+    border-radius: 5px;
+    width: 30vw;
+}
+
+.proj:hover {
+    transform: translateY(-4px);
+}
+
+.proj h2 {
+    text-align: center;
+}
+
+.proj p {
+    margin: 50px 10px;
+    color: rgb(6, 6, 109);
+    font-size: 16px;
+}
+
+.img {
+    cursor: pointer;
+    height: 45vh;
+    width: 28vw;
+    /* border:2px solid rgb(192, 204, 22); */
+    border-radius: 20px;
+    margin: 4px 4px;
+}
+
+.img:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}

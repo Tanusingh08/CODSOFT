@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Pangolin&family=Roboto&family=Satisfy&display=swap');
+
+.Home-head {
+    height: 90vh;
+    /* background-color: rgb(214, 233, 235); */
+}
+
+.Home-above {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(199, 199, 226); */
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.home-left {
+    /* background-color: yellowgreen; */
+}
+
+.home-content {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.home-content p {
+    /* background-color: yellow;    */
+    font-size: 29px;
+}
+
+.home-content h2 {
+    /* background-color:cadetblue;   */
+    margin: -32px 0px;
+    font-size: 42px;
+}
+
+.icons {
+
+    height: 40px;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+}
+
+.icons i {
+    /* background-color: aqua; */
+
+    font-size: 34px;
+    margin: 18px 4px;
+    color: #131381;
+    padding: 8px 11px;
+    cursor: pointer;
+    background-color: rgb(156, 202, 228);
+    border: 2px solid blue;
+    border-radius: 17px;
+}
+
+.icons i:hover {
+    background-color: rgb(235, 237, 238);
+    transform: translateY(-2px);
+    /* transform: scale(1.1); */
+}
+
+.home-right {
+    /* background-color: tomato; */
+    width: 20%;
+
+}
+
+.MyPic {
+    height: 242px;
+    width: 244px;
+    border-radius: 121px;
+    border-radius: 140px;
+    border: 4px solid #4c5050;
+    cursor: pointer;
+}
+
+.MyPic:hover {
+    border: 6px solid #3dc9c9;
+    transform: scale(1.1);
+
+}
